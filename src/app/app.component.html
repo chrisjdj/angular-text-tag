@@ -1,0 +1,15 @@
+<div class="row justify-content-center tags-container">
+    <div *ngFor="let tag of tags">
+        <div class="tag-items" (click)="setTag(tag)">
+            <span class="tag-items-name {{config[tag]}}" [ngClass]="{'tag-active': activeTag===tag}">
+                <input hidden type="radio"> {{tag}}
+            </span>
+        </div>
+    </div>
+</div>
+
+<text-tag [hidden]="!activeTag" [text]="text" [tags]="tags"></text-tag>
+
+<div [hidden]="activeTag" class="row justify-content-center tags-container">
+    select a Tag to tag...
+</div>

@@ -1,0 +1,15 @@
+<div class="tag-container">
+    <span class="row justify-content-center">
+        Text in this box can't be tagged. Only the text in BELOW box can be tagged.
+    </span>
+</div>
+
+<div (textTag)="renderRectangles( $event )" class="tag-container">
+    <span *ngFor="let text of textArray, let i=index" id="span#{{i}}" class="space-around-text">{{text}} </span>
+</div>
+
+<div class="tag-container">
+    <span class="row justify-content-center">
+        Text in this box also can't be tagged. Only the text in ABOVE box can be tagged.
+    </span>
+</div>

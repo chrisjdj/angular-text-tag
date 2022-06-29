@@ -1,0 +1,74 @@
+.tag-tagA {
+  color: #39a0ff;
+  background-color: #e6f7ff;
+  border: 1px solid #bde6fe;
+  user-select: none;
+  margin: 0 3px;
+}
+
+.tag-tagB {
+  color: #3ccfcd;
+  background-color: #e6fffb;
+  border: 1px solid #b8f3ed;
+  user-select: none;
+  margin: 0 3px;
+}
+
+.tag-tagC {
+  color: #fc6e3d;
+  background-color: #fff2e8;
+  border: 1px solid #fed8c1;
+  user-select: none;
+  margin: 0 3px;
+}
+
+.tag-tagD {
+  color: #f74b54;
+  background-color: #fff1f0;
+  border: 1px solid #fecbc8;
+  user-select: none;
+  margin: 0 3px;
+}
+
+.tag-style {
+  color: #583fcf;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Roboto Condensed", "Arial Narrow", sans-serif;
+}
+
+.remove-tag-icon {
+  margin: 2px;
+}
+
+.space-around-text {
+  font-size: 20px;
+}
+
+.tag-container {
+  /* box-shadow: 0em 0.25rem 0.5rem rgba(18,38,63,0.2); */
+  border: 1px solid black;
+  word-wrap: break-word;
+  padding: 15px;
+  margin: 5px;
+}
+
+.tag-items {
+    margin: 20px;
+  }
+  
+  .tags-container {
+    margin-top: 6%;
+  }
+  
+  .tag-active {
+    border-width: 4px;
+  }
+  
+  .tag-items-name {
+    text-align: center;
+    font-size: 15px;
+    padding: 1px 10px;
+    cursor: pointer;
+  }
+  
